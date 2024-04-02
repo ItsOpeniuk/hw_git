@@ -1,0 +1,16 @@
+ 1002  LS -LA
+ 1003  rm .gitignore
+ 1004  LS -LA
+ 1005  git checkout -b 'feature'
+ 1006  git branch
+ 1007  vi .gitignore
+ 1008  git commit -m 'First commit'
+ 1009  git add .
+ 1010  git commit -m 'First commit'
+ 1011  git push
+ 1012  git push --set-upstream origin feature\n
+ 1013  git commit --amend 'First commit from amend'
+ 1014  git commit --amend
+ 1015  git checkout main
+ 1016  git branch
+ 1017  git merge feature
